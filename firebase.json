@@ -1,4 +1,6 @@
 {
+  "firebase":"midfare",
+  "public" : "app",
   "database": {
     "rules": "database.rules.json"
   },
