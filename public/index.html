@@ -1,45 +1,43 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Midfare</title>
-      <link href="node_modules/bootstrap/dist/css/bootstrap.min.css"/>
-      
-  </head>
-  <body>
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Project name</a>
-        </div>
-        <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </nav>
-    <div class="container">
-      <h1>Welcome to Midfare</h1>
-      <p>You're seeing this because you've successfully setup Firebase Hosting. Now it's time to go build something extraordinary!</p>
-      <ul>
-        <li><a target="_blank" href="https://firebase.google.com/docs/hosting/">Open Hosting Documentation</a></li>
-      </ul>
-    </div>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"/>
+<html lang="en">
+<head>
+  <title>Midfare</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
 
-  </body>
-</html>
+<div class="jumbotron text-center">
+  <h1>Midfare</h1>
+  <p>Find the best flights to meet your far-apart friends</p>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-5">
+        <form role="form">
+          <div class="form-group">
+            <label for="YourCity">Your City:</label>
+            <input type="text" class="form-control" id="City1" placeholder="ATL">
+          </div>
+      </div>
+      <div class="col-sm-5">
+            <div class="form-group">
+              <label for="FriendCity">Your Friend's City:</label>
+              <input type="text" class="form-control" id="email" placeholder="SEA">
+            </div>
+            <!--<div class="checkbox">
+              <label><input type="checkbox"> Remember me</label>
+            </div>-->
+        </div>
+    </div>
+    <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+
+</div>
+
+
+</body>
